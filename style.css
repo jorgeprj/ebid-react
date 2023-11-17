@@ -221,3 +221,28 @@ img {
         flex-basis: calc(50% - 20px);
     }
 }
+
+.footer {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #7b7b7b;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer a {
+    color: #7b7b7b;
+    text-decoration: underline;
+  }
+  
+  footer a:hover {
+    color: var(--primary-color);
+  }
