@@ -110,7 +110,7 @@ a{
 
 .bid-price h3{
     margin: 0;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .bid-price h4{
@@ -126,4 +126,8 @@ a{
 
 .time-left span{
     color: var(--primary-color);
+}
+
+.buttons{
+    white-space: nowrap;
 }
