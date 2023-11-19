@@ -71,6 +71,7 @@ img {
     background-color: var(--primary-color);
     border-radius: 8px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .logo span {
@@ -173,6 +174,7 @@ main{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
     margin-right: 10px;
+    margin-left: 10px;
     max-width: 300px; 
 }
 
