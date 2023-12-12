@@ -99,6 +99,7 @@ main{
 
 .product-card {
     display: flex;
+    flex-direction: row;
     border-radius: 10px;
     overflow: hidden;
    
@@ -141,8 +142,8 @@ main{
 
 .product-image {
     flex-shrink: 0;
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
     overflow: hidden;
 }
 
@@ -231,8 +232,9 @@ main{
         flex-basis: calc(50% - 20px);
     }
 
-    .product-image{
-        display: none;
+    .product-card{
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
 
