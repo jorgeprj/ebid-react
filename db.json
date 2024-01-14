@@ -1,0 +1,102 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "1980 Chicago Bulls Jersey",
+            "price": 6100,
+            "description": "Authentic jersey from the 1980 Chicago Bulls season. This jersey is a piece of basketball history, worn by players during the iconic 1980 season where the Bulls showcased their skills and determination on the court.",
+            "code": "12345ab",
+            "authentication": {
+                "id": "e5d4a682-3b82-4f7a-a345-79104b16c5a1",
+                "brand": "Chicago Bulls",
+                "material": "Polyester",
+                "link": "cert.ebid.com/12345ab",
+                "date_code": "GUE372264 091A"
+            }
+        },
+        {
+            "id": 2,
+            "name": "2011 NFL Champions Ring",
+            "price": 1420,
+            "description": "Commemorative ring celebrating the 2011 NFL Champions. Crafted with precision, this ring symbolizes the hard work and dedication of the championship-winning team. A perfect keepsake for any avid NFL fan or collector of sports memorabilia.",
+            "code": "67890cd",
+            "authentication": {
+                "id": "2bd3655f-89c1-4e72-90c9-9f9ffef2508c",
+                "brand": "NFL",
+                "material": "Gold",
+                "link": "cert.ebid.com/67890cd",
+                "date_code": "GUE372264 091B"
+            }
+        },
+        {
+            "id": 3,
+            "name": "N.12 Marvel Comic Book",
+            "price": 12541,
+            "description": "Rare Marvel comic book, issue number 12. Immerse yourself in the captivating world of superheroes and villains with this collector's item. The pages are filled with thrilling adventures, vivid illustrations, and a piece of Marvel's rich storytelling history.",
+            "code": "54321ef",
+            "authentication": {
+                "id": "a9a284fc-9052-476d-a4e5-62c6a62e5fe9",
+                "brand": "Marvel",
+                "material": "Paper",
+                "link": "cert.ebid.com/54321ef",
+                "date_code": "GUE372264 091C"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Original Star Wars III Lightsaber",
+            "price": 4730,
+            "description": "Genuine lightsaber used in Star Wars Episode III. Own a piece of cinematic history with this authentic lightsaber. This weapon, wielded in the epic third installment of the Star Wars saga, carries the essence of the Force and the battles fought in a galaxy far, far away.",
+            "code": "98765gh",
+            "authentication": {
+                "id": "d3a4b156-7f58-4a9a-b1b4-3ed721fd4b6d",
+                "brand": "Star Wars",
+                "material": "Plastic, Metal",
+                "link": "cert.ebid.com/98765gh",
+                "date_code": "GUE372264 091D"
+            }
+        },
+        {
+            "id": 5,
+            "name": "CSGO Major 2022 Jame's Keyboard",
+            "price": 480,
+            "description": "Official keyboard used by Jame during CSGO Major 2022. Enhance your gaming experience with the same keyboard that professional player Jame used in the thrilling matches of the 2022 CSGO Major. This keyboard is designed for precision and durability, meeting the demands of competitive gaming.",
+            "code": "45678ij",
+            "authentication": {
+                "id": "58c3f10e-8c6d-4a94-9d12-9e9f30936a71",
+                "brand": "Logitech",
+                "material": "Plastic, Metal",
+                "link": "cert.ebid.com/45678ij",
+                "date_code": "GUE372264 091E"
+            }
+        },
+        {
+            "id": 6,
+            "name": "1976 Ball Autographed by Pele",
+            "price": 8180,
+            "description": "Soccer ball signed by the legendary Pele in 1976. This autographed ball captures a moment in time when Pele, one of the greatest footballers in history, left his mark on the sport. A prized possession for soccer enthusiasts and collectors alike.",
+            "code": "01234kl",
+            "authentication": {
+                "id": "f7d92c60-0c19-4c6a-87bb-01c2046f88c8",
+                "brand": "Pele",
+                "material": "Leather",
+                "link": "cert.ebid.com/01234kl",
+                "date_code": "GUE372264 091F"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Hendricks's Original Gibson Guitar",
+            "price": 72180,
+            "description": "Authentic Gibson guitar owned and played by Hendricks. Immerse yourself in the world of rock and blues with this original Gibson guitar once owned and played by the iconic musician Hendricks. A rare piece of music history that resonates with the soulful tunes of a bygone era.",
+            "code": "56789mn",
+            "authentication": {
+                "id": "e2d5f9ca-1ff2-4e5e-891a-c5bc18f4c9d2",
+                "brand": "Gibson",
+                "material": "Wood, Metal",
+                "link": "cert.ebid.com/56789mn",
+                "date_code": "GUE372264 091G"
+            }
+        }
+    ]
+}
