@@ -3,7 +3,8 @@
         {
             "id": 1,
             "name": "1980 Chicago Bulls Jersey",
-            "price": 6100,
+            "price": 16300,
+            "startPrice": 6100,
             "description": "Authentic jersey from the 1980 Chicago Bulls season. This jersey is a piece of basketball history, worn by players during the iconic 1980 season where the Bulls showcased their skills and determination on the court.",
             "code": "12345ab",
             "authentication": {
@@ -12,12 +13,18 @@
                 "material": "Polyester",
                 "link": "cert.ebid.com/12345ab",
                 "date_code": "GUE372264 091A"
-            }
+            },
+            "bids": [
+                {"user_name": "Jorge", "price": 7500},
+                {"user_name": "Maria", "price": 7550},
+                {"user_name": "Carlos", "price": 7600}
+            ]
         },
         {
             "id": 2,
             "name": "2011 NFL Champions Ring",
-            "price": 1420,
+            "price": 5420,
+            "startPrice": 1420,
             "description": "Commemorative ring celebrating the 2011 NFL Champions. Crafted with precision, this ring symbolizes the hard work and dedication of the championship-winning team. A perfect keepsake for any avid NFL fan or collector of sports memorabilia.",
             "code": "67890cd",
             "authentication": {
@@ -26,12 +33,18 @@
                 "material": "Gold",
                 "link": "cert.ebid.com/67890cd",
                 "date_code": "GUE372264 091B"
-            }
+            },
+            "bids": [
+                {"user_name": "Ana", "price": 1600},
+                {"user_name": "João", "price": 1800},
+                {"user_name": "Mariana", "price": 1900}
+            ]
         },
         {
             "id": 3,
             "name": "N.12 Marvel Comic Book",
-            "price": 12541,
+            "price": 32746,
+            "startPrice": 12541,
             "description": "Rare Marvel comic book, issue number 12. Immerse yourself in the captivating world of superheroes and villains with this collector's item. The pages are filled with thrilling adventures, vivid illustrations, and a piece of Marvel's rich storytelling history.",
             "code": "54321ef",
             "authentication": {
@@ -40,12 +53,18 @@
                 "material": "Paper",
                 "link": "cert.ebid.com/54321ef",
                 "date_code": "GUE372264 091C"
-            }
+            },
+            "bids": [
+                {"user_name": "Lucas", "price": 20000},
+                {"user_name": "Gabriel", "price": 22100},
+                {"user_name": "Isabella", "price": 22200}
+            ]
         },
         {
             "id": 4,
             "name": "Original Star Wars III Lightsaber",
-            "price": 4730,
+            "price": 14730,
+            "startPrice": 4730,
             "description": "Genuine lightsaber used in Star Wars Episode III. Own a piece of cinematic history with this authentic lightsaber. This weapon, wielded in the epic third installment of the Star Wars saga, carries the essence of the Force and the battles fought in a galaxy far, far away.",
             "code": "98765gh",
             "authentication": {
@@ -54,12 +73,18 @@
                 "material": "Plastic, Metal",
                 "link": "cert.ebid.com/98765gh",
                 "date_code": "GUE372264 091D"
-            }
+            },
+            "bids": [
+                {"user_name": "Rafael", "price": 5000},
+                {"user_name": "Fernanda", "price": 6600},
+                {"user_name": "Matheus", "price": 6700}
+            ]
         },
         {
             "id": 5,
             "name": "CSGO Major 2022 Jame's Keyboard",
-            "price": 480,
+            "price": 880,
+            "startPrice": 450,
             "description": "Official keyboard used by Jame during CSGO Major 2022. Enhance your gaming experience with the same keyboard that professional player Jame used in the thrilling matches of the 2022 CSGO Major. This keyboard is designed for precision and durability, meeting the demands of competitive gaming.",
             "code": "45678ij",
             "authentication": {
@@ -68,12 +93,18 @@
                 "material": "Plastic, Metal",
                 "link": "cert.ebid.com/45678ij",
                 "date_code": "GUE372264 091E"
-            }
+            },
+            "bids": [
+                {"user_name": "Luiza", "price": 450},
+                {"user_name": "Gustavo", "price": 460},
+                {"user_name": "Amanda", "price": 470}
+            ]
         },
         {
             "id": 6,
             "name": "1976 Ball Autographed by Pele",
             "price": 8180,
+            "startPrice": 4180,
             "description": "Soccer ball signed by the legendary Pele in 1976. This autographed ball captures a moment in time when Pele, one of the greatest footballers in history, left his mark on the sport. A prized possession for soccer enthusiasts and collectors alike.",
             "code": "01234kl",
             "authentication": {
@@ -82,12 +113,18 @@
                 "material": "Leather",
                 "link": "cert.ebid.com/01234kl",
                 "date_code": "GUE372264 091F"
-            }
+            },
+            "bids": [
+                {"user_name": "Diego", "price": 5000},
+                {"user_name": "Carolina", "price": 5100},
+                {"user_name": "Pedro", "price": 5200}
+            ]
         },
         {
             "id": 7,
             "name": "Hendricks's Original Gibson Guitar",
             "price": 72180,
+            "startPrice": 42180,
             "description": "Authentic Gibson guitar owned and played by Hendricks. Immerse yourself in the world of rock and blues with this original Gibson guitar once owned and played by the iconic musician Hendricks. A rare piece of music history that resonates with the soulful tunes of a bygone era.",
             "code": "56789mn",
             "authentication": {
@@ -96,7 +133,12 @@
                 "material": "Wood, Metal",
                 "link": "cert.ebid.com/56789mn",
                 "date_code": "GUE372264 091G"
-            }
+            },
+            "bids": [
+                {"user_name": "Fernando", "price": 42180},
+                {"user_name": "Juliana", "price": 44100},
+                {"user_name": "Ricardo", "price": 46200}
+            ]
         }
     ]
 }
