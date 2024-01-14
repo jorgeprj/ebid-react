@@ -62,13 +62,13 @@ const navigation = {
                 {
                     name: 'Marvel Comics',
                     href: '#',
-                    imageSrc: './src/assets/products/3.png',
+                    imageSrc: '../src/assets/products/3.png',
                     imageAlt: 'Marvel N12 Comic Book',
                 },
                 {
                     name: 'Star Wars Lightsabers',
                     href: '#',
-                    imageSrc: './src/assets/products/4.png',
+                    imageSrc: '../src/assets/products/4.png',
                     imageAlt:
                         'Light saber used in the Star Wars film',
                 },
