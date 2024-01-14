@@ -1,8 +1,7 @@
-import useSWR  from 'swr';
+import useSWR from 'swr';
 import axios from 'axios';
 import { Product } from '../types/Product';
 import { useEffect, useState } from 'react';
-
 
 const fetchProducts = async () => {
     const response = await axios.get('http://localhost:5000/products');
@@ -19,7 +18,7 @@ const useProducts = () => {
         }, 500);
 
         return () => clearTimeout(delay);
-    }, []); 
+    }, []);
 
     return {
         products,
@@ -28,4 +27,14 @@ const useProducts = () => {
     };
 };
 
-export default useProducts;
+const getProduct = async (id: number) => {
+    try {
+        const response = await axios.get(`http://localhost:5000/products/${id}`);
+        return response.data as Product;
+    } catch (error) {
+        console.error('Error fetching product:', error);
+        return null;
+    }
+};
+
+export { useProducts, getProduct };

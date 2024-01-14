@@ -1,9 +1,10 @@
 import { useState } from "react";
 import Modal from "../../components/feedback/modal/Modal";
 import ProductCard from "../../components/surfaces/productCard/ProductCard"
-import useProducts from "../../hooks/useProducts";
+
 import { Product } from "../../types/Product";
 import Loading from "../../components/feedback/loading/Loading";
+import { useProducts } from "../../hooks/useProducts";
 
 interface FeatureProductProps {
     product: Product;

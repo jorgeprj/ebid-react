@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Popover, Transition } from '@headlessui/react'
-import { ShoppingBagIcon,} from '@heroicons/react/24/outline'
+import { ShoppingBagIcon, } from '@heroicons/react/24/outline'
 import { Hamburger } from '../menu/Hamburger'
 import MobileNavbar from './MobileNavbar'
 
@@ -323,10 +323,12 @@ const Cart: React.FC<CartProps> = ({ buyLen }) => {
 }
 
 
-export default function Navbar() {
-    const [open, setOpen] = useState(false)
-    const [buyLen] = useState(0)
+interface NavbarProps {
+    cartCount: number;
+}
 
+export const Navbar: React.FC<NavbarProps> = ({ cartCount }) => {
+    const [open, setOpen] = useState(false)
 
     return (
         <div className="bg-white">
@@ -343,7 +345,7 @@ export default function Navbar() {
                     >
                         <div className="fixed inset-0 bg-black bg-opacity-25" />
                     </Transition.Child>
-                    <MobileNavbar setOpen={setOpen}/>
+                    <MobileNavbar setOpen={setOpen} />
                 </Dialog>
             </Transition.Root>
 
@@ -356,9 +358,9 @@ export default function Navbar() {
                             <Menu />
 
                             <div className="ml-auto flex items-center">
-                                <Links/>
+                                <Links />
                                 <CurrencyFlag />
-                                <Cart buyLen={buyLen} />
+                                <Cart buyLen={cartCount} />
                             </div>
                         </div>
                     </div>
