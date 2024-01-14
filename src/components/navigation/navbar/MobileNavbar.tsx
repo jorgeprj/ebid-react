@@ -11,13 +11,13 @@ const navigation = {
                 {
                     name: 'NBA',
                     href: '#',
-                    imageSrc: './src/assets/products/1.png',
+                    imageSrc: '../src/assets/products/1.png',
                     imageAlt: 'Chicago Bulls 1980 finals',
                 },
                 {
                     name: 'NFL',
                     href: '#',
-                    imageSrc: './src/assets/products/2.png',
+                    imageSrc: '../src/assets/products/2.png',
                     imageAlt: 'NFL 2011 Champions Ring',
                 },
             ],

@@ -13,13 +13,13 @@ const navigation = {
                 {
                     name: 'NBA',
                     href: '#',
-                    imageSrc: './src/assets/products/1.png',
+                    imageSrc: '../src/assets/products/1.png',
                     imageAlt: 'Chicago Bulls 1980 finals',
                 },
                 {
                     name: 'NFL',
                     href: '#',
-                    imageSrc: './src/assets/products/2.png',
+                    imageSrc: '../src/assets/products/2.png',
                     imageAlt: 'NFL 2011 Champions Ring',
                 },
             ],
@@ -122,7 +122,7 @@ function classNames(...classes: any) {
 const Logo = () => {
     return (
         <div className="ml-4 flex lg:ml-0">
-            <a href="#">
+            <a href="/home">
                 <span className="sr-only">ebid</span>
                 <img
                     className="h-8 w-auto"
@@ -178,7 +178,7 @@ const PageButton: React.FC<PageProps> = ({ page }) => {
 
 const Menu = () => {
     return (
-        <Popover.Group className="hidden lg:ml-8 lg:block lg:self-stretch">
+        <Popover.Group className="hidden lg:ml-8 lg:block lg:self-stretch" style={{ zIndex: 1 }}>
             <div className="flex h-full space-x-8">
                 {navigation.categories.map((category) => (
                     <Popover key={category.name} className="flex">
